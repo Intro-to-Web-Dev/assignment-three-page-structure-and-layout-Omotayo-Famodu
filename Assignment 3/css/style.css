@@ -1,0 +1,104 @@
+
+/* I decided on Blue and yellow because those colors are calming. yellow
+usually evokes a positive moood and goes well with creativity which is good
+because my site is art based.
+
+the color palette i will use will be grey yellow and light blue. The hex codes are
+#D3D3D3, #ADD8E6, and #FFFF66
+
+Every page will be impacted by my color choice because the blue yellow and grey are on
+all of my pages */
+
+
+
+
+/* the font I chose is Helvetica, I used H2 headings, and I used Default weights,
+I used a default line height, and regular word spacing, and letter spacing */
+
+body {
+    background-color: gray;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+
+.tayo {
+    height: 50px;
+    width: auto;
+    background-color: lightgrey;
+    border-style: solid;
+    border-width: medium;
+}
+
+
+.button {
+    height: 60px;
+    width: 85px;
+    border-style: solid;
+    border-width: medium;
+    background-color: skyblue;
+}
+
+#box {
+    background-color: snow;
+    width: auto;
+    height: 50px;
+
+}
+
+#landingimage {
+    display: block;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: skyblue;
+    height: 85px;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#holder {
+    display: flex;
+
+}
+
+.bar {
+    background-color: black;
+    height: 15px;
+    width: 33%;
+    margin-top: 20px;
+}
+
+#name {
+    width: 33%;
+    text-align: center;
+}
+
+section {
+
+    height: 350px;
+
+
+}
+
+#gallerybox {
+    display: flex;
+
+}
+
+#gallerybox>img {
+    max-width: 25%;
+}
